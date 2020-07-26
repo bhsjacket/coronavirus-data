@@ -15,7 +15,22 @@ CREATE TABLE zip (
     population INT(11) NOT NULL,
     tests_per_mille FLOAT NOT NULL,
     cases INT(11) NOT NULL
-);";
+);
+CREATE TABLE california (
+    date DATE NOT NULL,
+    county VARCHAR(16) NOT NULL,
+    cases INT(11) NOT NULL,
+    deaths INT(11) NOT NULL,
+    new_cases INT(11) NOT NULL,
+    new_deaths INT(11) NOT NULL
+);
+CREATE TABLE hospital (
+    date DATE NOT NULL,
+    county VARCHAR(16) NOT NULL,
+    patients INT(11) NOT NULL,
+    icu INT(11) NOT NULL
+);
+";
 if( $database->query($sql) === true ) {
     echo 'Database configured successfully.';
 } else {

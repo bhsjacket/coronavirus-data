@@ -1,0 +1,176 @@
+{
+  "Los Angeles": {
+    "population": 10039107
+  },
+  "San Diego": {
+    "population": 3338330
+  },
+  "Orange": {
+    "population": 3175692
+  },
+  "Riverside": {
+    "population": 2470546
+  },
+  "San Bernardino": {
+    "population": 2180085
+  },
+  "Santa Clara": {
+    "population": 1927852
+  },
+  "Alameda": {
+    "population": 1671329
+  },
+  "Sacramento": {
+    "population": 1552058
+  },
+  "Contra Costa": {
+    "population": 1153526
+  },
+  "Fresno": {
+    "population": 999101
+  },
+  "Kern": {
+    "population": 900202
+  },
+  "San Francisco": {
+    "population": 881549
+  },
+  "Ventura": {
+    "population": 846006
+  },
+  "San Mateo": {
+    "population": 766573
+  },
+  "San Joaquin": {
+    "population": 762148
+  },
+  "Stanislaus": {
+    "population": 550660
+  },
+  "Sonoma": {
+    "population": 494336
+  },
+  "Tulare": {
+    "population": 466195
+  },
+  "Solano": {
+    "population": 447643
+  },
+  "Santa Barbara": {
+    "population": 446499
+  },
+  "Monterey": {
+    "population": 434061
+  },
+  "Placer": {
+    "population": 398329
+  },
+  "San Luis Obispo": {
+    "population": 283111
+  },
+  "Merced": {
+    "population": 277680
+  },
+  "Santa Cruz": {
+    "population": 273213
+  },
+  "Marin": {
+    "population": 258826
+  },
+  "Yolo": {
+    "population": 220500
+  },
+  "Butte": {
+    "population": 219186
+  },
+  "El Dorado": {
+    "population": 192843
+  },
+  "Imperial": {
+    "population": 181215
+  },
+  "Shasta": {
+    "population": 180080
+  },
+  "Madera": {
+    "population": 157327
+  },
+  "Kings": {
+    "population": 152940
+  },
+  "Napa": {
+    "population": 137744
+  },
+  "Humboldt": {
+    "population": 135558
+  },
+  "Nevada": {
+    "population": 99755
+  },
+  "Sutter": {
+    "population": 96971
+  },
+  "Mendocino": {
+    "population": 86749
+  },
+  "Yuba": {
+    "population": 78668
+  },
+  "Tehama": {
+    "population": 65084
+  },
+  "Lake": {
+    "population": 64386
+  },
+  "San Benito": {
+    "population": 62808
+  },
+  "Tuolumne": {
+    "population": 54478
+  },
+  "Calaveras": {
+    "population": 45905
+  },
+  "Siskiyou": {
+    "population": 43539
+  },
+  "Amador": {
+    "population": 39752
+  },
+  "Lassen": {
+    "population": 30573
+  },
+  "Glenn": {
+    "population": 28393
+  },
+  "Del Norte": {
+    "population": 27812
+  },
+  "Colusa": {
+    "population": 21547
+  },
+  "Plumas": {
+    "population": 18807
+  },
+  "Inyo": {
+    "population": 18039
+  },
+  "Mariposa": {
+    "population": 17203
+  },
+  "Mono": {
+    "population": 14444
+  },
+  "Trinity": {
+    "population": 12285
+  },
+  "Modoc": {
+    "population": 8841
+  },
+  "Sierra": {
+    "population": 3005
+  },
+  "Alpine": {
+    "population": 1129
+  }
+}

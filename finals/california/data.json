@@ -1,0 +1,482 @@
+[
+  {
+    "date": "2020-07-24",
+    "county": "Santa Clara",
+    "cases": 8658,
+    "deaths": 183,
+    "new_cases": 200,
+    "new_deaths": 2
+  },
+  {
+    "date": "2020-07-24",
+    "county": "San Mateo",
+    "cases": 4954,
+    "deaths": 117,
+    "new_cases": 59,
+    "new_deaths": 3
+  },
+  {
+    "date": "2020-07-24",
+    "county": "Santa Barbara",
+    "cases": 5776,
+    "deaths": 32,
+    "new_cases": 148,
+    "new_deaths": 0
+  },
+  {
+    "date": "2020-07-24",
+    "county": "Tuolumne",
+    "cases": 99,
+    "deaths": 0,
+    "new_cases": 6,
+    "new_deaths": 0
+  },
+  {
+    "date": "2020-07-24",
+    "county": "Sierra",
+    "cases": 1,
+    "deaths": 0,
+    "new_cases": 0,
+    "new_deaths": 0
+  },
+  {
+    "date": "2020-07-24",
+    "county": "Placer",
+    "cases": 1551,
+    "deaths": 13,
+    "new_cases": 32,
+    "new_deaths": 0
+  },
+  {
+    "date": "2020-07-24",
+    "county": "San Luis Obispo",
+    "cases": 1476,
+    "deaths": 8,
+    "new_cases": 38,
+    "new_deaths": 0
+  },
+  {
+    "date": "2020-07-24",
+    "county": "Solano",
+    "cases": 3062,
+    "deaths": 35,
+    "new_cases": 100,
+    "new_deaths": 0
+  },
+  {
+    "date": "2020-07-24",
+    "county": "Monterey",
+    "cases": 3748,
+    "deaths": 22,
+    "new_cases": 93,
+    "new_deaths": 0
+  },
+  {
+    "date": "2020-07-24",
+    "county": "Yuba",
+    "cases": 307,
+    "deaths": 3,
+    "new_cases": 10,
+    "new_deaths": 0
+  },
+  {
+    "date": "2020-07-24",
+    "county": "San Francisco",
+    "cases": 5611,
+    "deaths": 56,
+    "new_cases": 68,
+    "new_deaths": 1
+  },
+  {
+    "date": "2020-07-24",
+    "county": "Orange",
+    "cases": 33530,
+    "deaths": 556,
+    "new_cases": 667,
+    "new_deaths": 13
+  },
+  {
+    "date": "2020-07-24",
+    "county": "Mono",
+    "cases": 82,
+    "deaths": 1,
+    "new_cases": 0,
+    "new_deaths": 0
+  },
+  {
+    "date": "2020-07-24",
+    "county": "Calaveras",
+    "cases": 102,
+    "deaths": 1,
+    "new_cases": 0,
+    "new_deaths": 0
+  },
+  {
+    "date": "2020-07-24",
+    "county": "Alpine",
+    "cases": 2,
+    "deaths": 0,
+    "new_cases": 0,
+    "new_deaths": 0
+  },
+  {
+    "date": "2020-07-24",
+    "county": "Nevada",
+    "cases": 255,
+    "deaths": 1,
+    "new_cases": 8,
+    "new_deaths": 0
+  },
+  {
+    "date": "2020-07-24",
+    "county": "Butte",
+    "cases": 751,
+    "deaths": 5,
+    "new_cases": 25,
+    "new_deaths": 0
+  },
+  {
+    "date": "2020-07-24",
+    "county": "Santa Cruz",
+    "cases": 930,
+    "deaths": 4,
+    "new_cases": 43,
+    "new_deaths": 0
+  },
+  {
+    "date": "2020-07-24",
+    "county": "Mendocino",
+    "cases": 188,
+    "deaths": 4,
+    "new_cases": 10,
+    "new_deaths": 1
+  },
+  {
+    "date": "2020-07-24",
+    "county": "Fresno",
+    "cases": 12564,
+    "deaths": 112,
+    "new_cases": 400,
+    "new_deaths": 8
+  },
+  {
+    "date": "2020-07-24",
+    "county": "Inyo",
+    "cases": 41,
+    "deaths": 1,
+    "new_cases": 3,
+    "new_deaths": 0
+  },
+  {
+    "date": "2020-07-24",
+    "county": "San Joaquin",
+    "cases": 10190,
+    "deaths": 110,
+    "new_cases": 329,
+    "new_deaths": 3
+  },
+  {
+    "date": "2020-07-24",
+    "county": "Ventura",
+    "cases": 6553,
+    "deaths": 67,
+    "new_cases": 250,
+    "new_deaths": 4
+  },
+  {
+    "date": "2020-07-24",
+    "county": "Trinity",
+    "cases": 3,
+    "deaths": 0,
+    "new_cases": 0,
+    "new_deaths": 0
+  },
+  {
+    "date": "2020-07-24",
+    "county": "Mariposa",
+    "cases": 41,
+    "deaths": 1,
+    "new_cases": 1,
+    "new_deaths": 0
+  },
+  {
+    "date": "2020-07-24",
+    "county": "El Dorado",
+    "cases": 516,
+    "deaths": 1,
+    "new_cases": 25,
+    "new_deaths": 0
+  },
+  {
+    "date": "2020-07-24",
+    "county": "Sonoma",
+    "cases": 2345,
+    "deaths": 24,
+    "new_cases": 56,
+    "new_deaths": 2
+  },
+  {
+    "date": "2020-07-24",
+    "county": "Shasta",
+    "cases": 262,
+    "deaths": 8,
+    "new_cases": 8,
+    "new_deaths": 1
+  },
+  {
+    "date": "2020-07-24",
+    "county": "Lassen",
+    "cases": 503,
+    "deaths": 0,
+    "new_cases": 0,
+    "new_deaths": 0
+  },
+  {
+    "date": "2020-07-24",
+    "county": "Colusa",
+    "cases": 255,
+    "deaths": 2,
+    "new_cases": 13,
+    "new_deaths": 0
+  },
+  {
+    "date": "2020-07-24",
+    "county": "Lake",
+    "cases": 167,
+    "deaths": 1,
+    "new_cases": 7,
+    "new_deaths": 0
+  },
+  {
+    "date": "2020-07-24",
+    "county": "Modoc",
+    "cases": 0,
+    "deaths": 0,
+    "new_cases": 0,
+    "new_deaths": 0
+  },
+  {
+    "date": "2020-07-24",
+    "county": "Tulare",
+    "cases": 8167,
+    "deaths": 168,
+    "new_cases": 269,
+    "new_deaths": 0
+  },
+  {
+    "date": "2020-07-24",
+    "county": "San Benito",
+    "cases": 485,
+    "deaths": 2,
+    "new_cases": 7,
+    "new_deaths": 0
+  },
+  {
+    "date": "2020-07-24",
+    "county": "Alameda",
+    "cases": 10216,
+    "deaths": 178,
+    "new_cases": 292,
+    "new_deaths": 5
+  },
+  {
+    "date": "2020-07-24",
+    "county": "Marin",
+    "cases": 4517,
+    "deaths": 54,
+    "new_cases": 94,
+    "new_deaths": 19
+  },
+  {
+    "date": "2020-07-24",
+    "county": "San Diego",
+    "cases": 26100,
+    "deaths": 524,
+    "new_cases": 485,
+    "new_deaths": 12
+  },
+  {
+    "date": "2020-07-24",
+    "county": "Out Of Country",
+    "cases": 0,
+    "deaths": 0,
+    "new_cases": 0,
+    "new_deaths": 0
+  },
+  {
+    "date": "2020-07-24",
+    "county": "Glenn",
+    "cases": 251,
+    "deaths": 1,
+    "new_cases": 5,
+    "new_deaths": 0
+  },
+  {
+    "date": "2020-07-24",
+    "county": "Siskiyou",
+    "cases": 53,
+    "deaths": 0,
+    "new_cases": 0,
+    "new_deaths": 0
+  },
+  {
+    "date": "2020-07-24",
+    "county": "Madera",
+    "cases": 1679,
+    "deaths": 19,
+    "new_cases": 20,
+    "new_deaths": 1
+  },
+  {
+    "date": "2020-07-24",
+    "county": "Tehama",
+    "cases": 170,
+    "deaths": 1,
+    "new_cases": 12,
+    "new_deaths": 0
+  },
+  {
+    "date": "2020-07-24",
+    "county": "Sutter",
+    "cases": 593,
+    "deaths": 4,
+    "new_cases": 23,
+    "new_deaths": 0
+  },
+  {
+    "date": "2020-07-24",
+    "county": "Napa",
+    "cases": 741,
+    "deaths": 8,
+    "new_cases": 28,
+    "new_deaths": 0
+  },
+  {
+    "date": "2020-07-24",
+    "county": "Los Angeles",
+    "cases": 169078,
+    "deaths": 4300,
+    "new_cases": 1880,
+    "new_deaths": 38
+  },
+  {
+    "date": "2020-07-24",
+    "county": "Sacramento",
+    "cases": 8570,
+    "deaths": 103,
+    "new_cases": 348,
+    "new_deaths": 5
+  },
+  {
+    "date": "2020-07-24",
+    "county": "Merced",
+    "cases": 3100,
+    "deaths": 27,
+    "new_cases": 128,
+    "new_deaths": 0
+  },
+  {
+    "date": "2020-07-24",
+    "county": "Kings",
+    "cases": 3471,
+    "deaths": 45,
+    "new_cases": 100,
+    "new_deaths": 0
+  },
+  {
+    "date": "2020-07-24",
+    "county": "Kern",
+    "cases": 16124,
+    "deaths": 123,
+    "new_cases": 1633,
+    "new_deaths": 8
+  },
+  {
+    "date": "2020-07-24",
+    "county": "Riverside",
+    "cases": 34513,
+    "deaths": 637,
+    "new_cases": 680,
+    "new_deaths": 0
+  },
+  {
+    "date": "2020-07-24",
+    "county": "Unassigned",
+    "cases": 5,
+    "deaths": 0,
+    "new_cases": 1,
+    "new_deaths": 0
+  },
+  {
+    "date": "2020-07-24",
+    "county": "Contra Costa",
+    "cases": 6814,
+    "deaths": 103,
+    "new_cases": 195,
+    "new_deaths": 1
+  },
+  {
+    "date": "2020-07-24",
+    "county": "Del Norte",
+    "cases": 66,
+    "deaths": 0,
+    "new_cases": 0,
+    "new_deaths": 0
+  },
+  {
+    "date": "2020-07-24",
+    "county": "San Bernardino",
+    "cases": 28990,
+    "deaths": 372,
+    "new_cases": 869,
+    "new_deaths": 14
+  },
+  {
+    "date": "2020-07-24",
+    "county": "Stanislaus",
+    "cases": 7861,
+    "deaths": 86,
+    "new_cases": 258,
+    "new_deaths": 7
+  },
+  {
+    "date": "2020-07-24",
+    "county": "Plumas",
+    "cases": 22,
+    "deaths": 0,
+    "new_cases": 1,
+    "new_deaths": 0
+  },
+  {
+    "date": "2020-07-24",
+    "county": "Humboldt",
+    "cases": 210,
+    "deaths": 4,
+    "new_cases": 2,
+    "new_deaths": 0
+  },
+  {
+    "date": "2020-07-24",
+    "county": "Amador",
+    "cases": 66,
+    "deaths": 0,
+    "new_cases": 5,
+    "new_deaths": 0
+  },
+  {
+    "date": "2020-07-24",
+    "county": "Imperial",
+    "cases": 7686,
+    "deaths": 173,
+    "new_cases": 82,
+    "new_deaths": 3
+  },
+  {
+    "date": "2020-07-24",
+    "county": "Yolo",
+    "cases": 1329,
+    "deaths": 37,
+    "new_cases": 50,
+    "new_deaths": 0
+  }
+]
