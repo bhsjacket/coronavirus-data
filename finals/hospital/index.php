@@ -24,7 +24,7 @@
     <?php echo file_get_contents('../california/california.svg'); ?>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://unpkg.com/mix-css-color"></script>
+    <script src="http://bhsjacket.local/coronavirus/coronavirus-data/color-generator.js"></script>
     <script>
 
         var data = <?php echo file_get_contents('data.json'); ?>;
@@ -61,7 +61,7 @@
                             $(this).attr('data-patients', (item.patients / population[item.county].population) * 100);
                             $(this).attr('data-icu', (item.icu / population[item.county].population) * 100);
 
-                            $(this).css('fill', getColor( (item[mapValue] / population[item.county].population) * 100, maxValue ));
+                            $(this).css('fill', getColor( (item[mapValue] / population[item.county].population) * 100 / maxValue ));
                         }
                     }
                 }
@@ -69,11 +69,6 @@
             })
 
         }, 100);
-
-        function getColor(value, max) {
-            var percentage = (value * 100) / max;
-            return mixCssColor('#800000', '#e7e7e7', percentage).hex;
-        }
 
 /*         if( $(this).data(mapValue) > maxValue ) {
             maxValue = $(this).data(mapValue);
