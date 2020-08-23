@@ -92,10 +92,8 @@
         </div>
     </div>
 
-    <div id="map"></div>
-
+    <script src="http://bhsjacket.local/coronavirus/coronavirus-data/color-generator.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://unpkg.com/mix-css-color"></script>
     <script>
 
         var data = <?php echo file_get_contents('data.json'); ?>;
@@ -116,14 +114,10 @@
             }
         })
 
-        function getColor(value, max) {
-            var percentage = (value * 100) / max;
-            return mixCssColor('#800000', '#e7e7e7', percentage).hex;
-        }
-
         for(var zip in data) {
             zip = data[zip];
-            $('path[data-zip="' + zip.zip + '"').css( 'fill', getColor((zip.tests / zip.population) * 100, maxValue) );
+            var color = getColor( zip.tests / zip.population / maxValue * 100 );
+            $('path[data-zip="' + zip.zip + '"').css( 'fill', color );
         }
 
         var appendOnce = false;
