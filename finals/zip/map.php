@@ -43,7 +43,7 @@ foreach( $paths as $path ) {
         foreach($data as $item) {
             if( $item['zip'] == $zip ) {
                 $path->setAttribute( 'style', 'fill:' . getColor( $item['percent_positive'] / $maxPercentPositive ) );
-                
+
                 $path->setAttribute( 'data-city', $item['city'] );
                 $path->setAttribute( 'data-percent_positive', $item['percent_positive'] );
                 $path->setAttribute( 'data-cases_per_mille', $item['cases_per_mille'] );
