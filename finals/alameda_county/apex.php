@@ -82,7 +82,7 @@ $average = implode(",", $average);
                     strokeDashArray: 5,
                     borderColor: '#808080',
                     label: {
-                        text: "Latest rolling 7-day average",
+                        text: 'Current rolling 7-day average',
                         position: 'left',
                         textAnchor: 'start',
                         borderColor: false,
