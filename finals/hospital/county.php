@@ -40,7 +40,7 @@ $dates = implode("','", $dates);
         var options = {
             colors: ['#808080', '#800000'],
             area: {
-                    fillTo: 'end'
+                fillTo: 'end'
             },
             fill: {
                 opacity: 0.25,
