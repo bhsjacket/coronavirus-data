@@ -33,7 +33,7 @@ $average = implode(",", $average);
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alameda County Statistics</title>
 
-    <link rel="stylesheet" href="//bhsjacket.local/coronavirus/coronavirus-data/tooltip.css">
+    <link rel="stylesheet" href="https://multimedia.berkeleyhighjacket.com/2020/coronavirus/tooltip.css">
 
     <style>
 
@@ -41,12 +41,14 @@ $average = implode(",", $average);
             font-weight: normal!important;
         }
 
+      body { margin: 0; }
+
     </style>
 </head>
 <body>
-    <div id="chart" style="max-width:800px;"></div>
+    <div id="chart"></div>
 
-    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts@3.20.2/dist/apexcharts.min.js"></script>
     <script>
 
         <?php require_once('../global.php'); ?>
@@ -55,7 +57,7 @@ $average = implode(",", $average);
             colors: ['#800000', '#e7e7e7'],
             chart: {
                 type: 'line',
-                height: 300,
+                height: 350,
             },
             series: [{
                 name: 'Rolling 7-Day Average',

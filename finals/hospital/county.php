@@ -2,6 +2,7 @@
 
 require_once('../../database.php');
 
+// $data = $database->query("SELECT `patients`, `icu`, `date` FROM `hospital` WHERE `county` = 'Alameda' ORDER BY `date` DESC");
 $data = $database->query("SELECT `patients`, `icu`, `date` FROM `hospital` WHERE `county` = 'Alameda' ORDER BY `date` DESC");
 while( $row = $data->fetch_assoc() ) {
     $patients[] = $row['patients'];
@@ -27,12 +28,14 @@ $dates = implode("','", $dates);
             font-weight: normal!important;
         }
 
+      body { margin: 0; }
+
     </style>
 </head>
 <body>
     <div id="chart"></div>    
 
-    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts@3.20.2/dist/apexcharts.min.js"></script>
     <script>
 
         <?php require_once('../global.php'); ?>

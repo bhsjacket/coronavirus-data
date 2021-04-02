@@ -24,7 +24,7 @@
     <?php echo file_get_contents('../california/california.svg'); ?>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="http://bhsjacket.local/coronavirus/coronavirus-data/color-generator.js"></script>
+    <script src="http:https://multimedia.berkeleyhighjacket.com/2020/coronavirus/color-generator.js"></script>
     <script>
 
         var data = <?php echo file_get_contents('data.json'); ?>;

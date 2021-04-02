@@ -28,7 +28,11 @@ function getColor($percentage) {
 }
 
 $data = $database->query("SELECT `zip`, `city`, (`cases` / `population`) * 1000 AS 'cases_per_mille', `income`, `cases`, `tests`, `percent_positive`, `population` FROM `ac_zip`");
-$data = $data->fetch_all(MYSQLI_ASSOC);
+$rows = [];
+while ( $row = mysqli_fetch_assoc($data) ) {
+    $rows[] = $row;
+}
+$data = $rows;
 
 $svg = file_get_contents('zip.svg');
 $dom = new DOMDocument();
@@ -68,13 +72,17 @@ $svg = $dom->saveHTML();
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <link rel="stylesheet" href="//bhsjacket.local/coronavirus/coronavirus-data/tooltip.css">
+    <link rel="stylesheet" href="https://multimedia.berkeleyhighjacket.com/2020/coronavirus/tooltip.css">
 
     <style>
 
         /* .bay-area-zips {
             max-width: 600px;
         } */
+
+        body {
+            margin: 0;
+        }
 
         .bay-area-zips path {
             stroke: #e7e7e7;
@@ -196,7 +204,7 @@ $svg = $dom->saveHTML();
 
     </div>
 
-    <script src="http://bhsjacket.local/coronavirus/coronavirus-data/color-generator.js"></script>
+    <script src="https://multimedia.berkeleyhighjacket.com/2020/coronavirus/color-generator.js"></script>
     <script>
 
         var maxValue = [];

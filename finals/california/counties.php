@@ -8,7 +8,11 @@ require_once('../../database.php');
 $data = $database->query("SELECT `county`, `deaths`, `date` FROM `california` WHERE `county` IN ('Alameda', 'Contra Costa', 'Marin', 'Napa', 'San Francisco', 'San Mateo', 'Santa Clara', 'Solano', 'Sonoma')");
 
 $population = $database->query("SELECT * FROM `population` WHERE `county` IN ('Alameda', 'Contra Costa', 'Marin', 'Napa', 'San Francisco', 'San Mateo', 'Santa Clara', 'Solano', 'Sonoma')");
-$population = $population->fetch_all(MYSQLI_ASSOC);
+$rows = [];
+while ( $row = mysqli_fetch_assoc($population) ) {
+    $rows[] = $row;
+}
+$population = $rows;
 
 while( $row = $data->fetch_assoc() ) {
 
@@ -73,6 +77,10 @@ $dates = implode("','", $dates);
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bay Area Deaths/100k</title>
     <style>
+    
+        body {
+            margin: 0;
+        }
 
         .apexcharts-xaxis-label {
             font-weight: normal!important;
@@ -88,8 +96,8 @@ $dates = implode("','", $dates);
 <body>
     <div id="chart"></div>
 
-    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
-    <script src="http://bhsjacket.local/coronavirus/coronavirus-data/color-generator.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts@3.20.2/dist/apexcharts.min.js"></script>
+    <script src="http:https://multimedia.berkeleyhighjacket.com/2020/coronavirus/color-generator.js"></script>
     <script>
 
         <?php require_once('../global.php'); ?>
@@ -162,7 +170,12 @@ $dates = implode("','", $dates);
                 x: { format: 'MMMM d, yyyy' },
                 y: {
                     formatter: value => {
-                        return Math.round( value ) + ' deaths per 100k';
+                        value = Math.round( value );
+                        if( value == 1 ) {
+                            return value + ' death per 100k';
+                        } else {
+                            return value + ' deaths per 100k';
+                        }
                     }
                 }
             }
